@@ -1,0 +1,93 @@
+/* REGLAS BÁSICAS--- */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        background-color: aqua;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+
+/* FIN REGLAS BÁSICAS--- */
+
+/* PUNTO 2.A--- */
+    .contenedor {
+        max-width: 1200px;
+        border: 2px rgb(29, 8, 121);
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: white;
+    }
+
+
+/* FIN PUNTO 2.A--- */
+
+/* HEADER--- */
+    header {
+        width: 100vw;
+        height: 20vh;
+        background-color: rgb(230, 73, 46);
+    }
+
+/* FIN HEADER--- */
+
+/* CAJAS A B C ---   */
+
+    #caja-a {
+        width: 20%;
+        border: solid 1px black;
+        background-color: rgb(75, 212, 98);
+
+        float: left;
+    }
+
+    #caja-b {
+        width: 62%;
+        border: solid 1px black;
+        background-color: rgb(41, 174, 197);
+        margin: 0% 2% 0% 2%;
+        float: left;
+    }
+
+    #caja-c {
+        width: 8%;
+        border: solid 1px black;
+        background-color: burlywood;
+        float: left;
+    }
+
+/* FIN CAJAS A B C ---   */
+
+/* MEDIDAS EM H2 P STROGN EN CAJAS--- */
+
+    h2 {
+        font-size: 1.75em;
+    }
+    p {
+        font-size: 0.8126em;
+    }
+    strong {
+        font-size: 1.15384615em;
+    }
+
+/* FIN H2 P STROGN EN CAJAS--- */
+
+/* MEDIA QUERIES--- */
+
+    @media (max-width:768px) {
+
+    }
+        
+
+    @media (max-width: 450px) {
+
+    }
+
+
+
+/* FIN MEDIA QUERIES--- */

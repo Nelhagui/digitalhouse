@@ -1,0 +1,12 @@
+body {
+    background: rgb(119, 160, 199);
+    font-family: 'PT Sans Caption', sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #b71c1c;
+
+}
+h1 {
+    font-style: italic;
+}

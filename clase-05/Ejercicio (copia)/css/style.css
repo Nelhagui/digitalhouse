@@ -1,0 +1,78 @@
+body {
+    background-image: url(../images/bg-2.png);
+}
+
+header {
+    display:block;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    display: inline;
+    margin: 10px;
+    padding: 0%;
+}
+
+/* .logo {
+    position: absolute;
+    display:inline;
+} */
+
+.menu {
+    margin: 0 auto;
+    /* position: relative;
+    width: 960px;
+    top: 50px;
+    padding: 3px 0px;
+    background-color: red;
+    margin-bottom: 20px;
+    display: inline-block; */
+}
+
+main {
+    display: block;
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    overflow: hidden;
+}
+
+article {
+    position: relative;
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.img-estado {
+    position: absolute;
+    top: 0%;
+    right: 15px;
+}
+
+.nombre-del-producto {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.boton-ver-mas {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    background-color: red;
+    left: 110px;
+    color: white;
+    text-decoration: none;
+}

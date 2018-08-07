@@ -1,0 +1,114 @@
+div {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+body {
+    background-color: aqua;
+    background-image: url(../images/bg-2.png)
+}
+
+/* COMIENZO HEADER----- */
+
+    header {
+
+        height: 150px;
+    }
+
+    #logo {
+        position: absolute;
+        margin-left: -35px;
+        width: 130px;
+        height: 130px;
+        z-index: 2;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    li {
+        font-weight: bold;
+        display: inline;
+        padding: 20px;
+        position: relative;
+        top: 25px;
+        left: 95px;
+    }
+
+
+    #menu {
+        position: absolute;
+        height: 70px;
+        width: 960px;
+        background-color: rgb(228, 38, 38);
+        margin-top: 28px;
+        z-index: 1;
+    }
+
+/* FIN HEADER ---- */
+
+/* COMIENZO MAIN---- */
+
+    main {
+        background-color: aliceblue;
+        margin-top: 20px;
+        overflow: hidden;
+        height: auto;
+    }
+
+    /* COMIENZO SECCIÓN PRODUCTOS--- */
+
+        article {
+            position: relative;
+            width: 300px;
+            height: 170px;
+            margin: 10px;
+            float: left;
+        }
+
+        /* COMIENZO ARTICULOS--- */
+
+            .img-estado {
+                position: absolute;
+                top: 0%;
+                right: 10px;
+                z-index: 1;
+            }
+
+            .nombre-del-producto {
+                position: absolute;
+                top: 35%;
+                width: 300px;
+                text-align: center;
+                font: italic bold 18px arial, Helvetica, sans-serif;
+                padding: 5px 0px;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.548);
+                z-index: 2;
+            }
+
+            .boton-ver-mas {
+                position: absolute;
+                bottom: 8px;
+                left: 110px;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+                background-color: red;
+            }
+
+        
+        /* FIN ARTICULOS--- */
+
+    /* FIN SECCIÓN PRODUCTOS--- */
+
+/* FIN MAIN--- */
+
