@@ -18,7 +18,7 @@ echo mayorSuperCirculos(2, 5, 1);
 
 
 // PUNTO 7
-echo "<hr>";
+echo "<hr>";    
 $miCadena = "Me encanta php, a mi también me encanta php";
 $miAparicion = "php";
 $ubicacion = strpos ($miCadena, $miAparicion);
