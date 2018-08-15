@@ -35,12 +35,26 @@
                     <input type='text' name='username' id='username' value='' maxlength="50" /><br/>
                     <span id='register_username_errorloc' class='error'></span>
                 </div>
-                <div class='container' style='height:80px;'>
+                <div class='container' >
                     <label for='password' >Contaseña*:</label><br/>
                     <div class='pwdwidgetdiv' id='thepwddiv' ></div>
                     <input type='password' name='password' id='password' maxlength="50" />
                     <div id='register_password_errorloc' class='error' style='clear:both'></div>
                 </div>
+                
+
+                <?php 
+                
+                if ($_GET["valor"] != "versionCorta") { ?>
+
+                <div class='container' style='height:80px;'>
+                    <label for='password' >Confirmar Contraseña*:</label><br/>
+                    <div class='pwdwidgetdiv' id='thepwddiv' ></div>
+                    <input type='password' name='password' id='password' maxlength="50" />
+                    <div id='register_password_errorloc' class='error' style='clear:both'></div>
+                </div>
+
+                <?php } ?>
 
                 <div class='container'>
                     <input type='submit' name='Submit' value='Enviar' />
