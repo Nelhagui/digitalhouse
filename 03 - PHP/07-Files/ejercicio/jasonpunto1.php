@@ -11,4 +11,6 @@ echo "<hr>";
 $b = json_encode($a);
 echo var_dump(json_decode($b,true));
 echo "<hr>";
+echo json_encode(array("Oso", "Perro", "Gato"));
+
 
