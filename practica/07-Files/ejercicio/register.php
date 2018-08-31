@@ -23,7 +23,11 @@ if ($_POST) {
             <fieldset >
                 <legend>Registrate</legend>
 
-                
+                <input type='hidden' name='submitted' id='submitted' value='1'/>
+
+                <div class='short_explanation'>* campos requeridos</div>
+                <input type='text' class='spmhidip' name='' />
+
                 <div><span class='error'></span></div>
                 <div class='container'>
                     <label for='name' >Nombre completo: </label><br/>
